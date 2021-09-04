@@ -1,0 +1,20 @@
+Ctrl-click on the table cell (of the first tr) to move it
+
+<table border="1" table-dnd-horz>
+<tr>
+ <td style="border: 4px solid black;">123</td>
+ <td style="border-spacing:0">zxc 123 zxc 123</td>
+ <td>qwe 123</td>
+</tr>
+<tr>
+ <td>should</td>
+ <td>not</td>
+ <td>move</td>
+</tr>
+</table>
+
+<script src="libs/jq-min-0.2.0.js"></script>
+<script src="table-dnd.js"></script>
+<script>
+  window.tableDnd.setCallback( (el, oldIndex, newIndex)=>console.log("el", el, "oldIndex", oldIndex, "newIndex", newIndex));
+</script>
