@@ -1,6 +1,10 @@
 # table-dnd
 Adds drag-n-drop for table rows or cells (3k minified zipped)
 
+## Usage
+
+Just add attribute "table-dnd-vert" or "table-dnd-horz" to table tag (look at test folder for examples).
+
 ## API
 
 ### `window.setCallback(el, oldIndex, newIndex)`
