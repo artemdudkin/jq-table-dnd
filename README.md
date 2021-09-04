@@ -1,4 +1,4 @@
-# table-dnd
+# jq-table-dnd
 Adds drag-n-drop for table rows or cells (1.8k minified zipped). Requires jq-min (3k minified zipped).
 
 ## Usage
