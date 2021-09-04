@@ -1,5 +1,9 @@
 # table-dnd
-Adds drag-n-drop for table rows or cells (3k minified zipped)
+Adds drag-n-drop for table rows or cells (1.8k minified zipped)
+
+## Usage
+
+Just add attribute "table-dnd-vert" or "table-dnd-horz" to table tag (look at test folder for examples).
 
 ## API
 
