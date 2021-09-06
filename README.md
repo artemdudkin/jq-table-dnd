@@ -3,7 +3,7 @@ Adds drag-n-drop for table rows or cells (1.8k minified zipped). Requires jq-min
 
 ## Usage
 
-Just add attribute "table-dnd-vert" or "table-dnd-horz" to table tag (look at test folder for examples).
+Just add attribute "table-dnd-vert" or "table-dnd-horz" to table tag (look at "test" folder for examples).
 
 ## API
 
@@ -16,5 +16,10 @@ Also, it runs on DOMContentLoaded so you do not need to call it if you are not c
 
 ## Demo
 Try it at test/table-dnd-vert.html
+
 ![](https://github.com/artemdudkin/table-dnd/blob/main/docs/demo.gif)
+
+## Downsides
+During dnd element leaves parent and therefor can loose style (that was bound to css path which includes parent)
+
 
