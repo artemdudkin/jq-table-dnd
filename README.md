@@ -20,6 +20,6 @@ Try it at test/table-dnd-vert.html
 ![](https://github.com/artemdudkin/table-dnd/blob/main/docs/demo.gif)
 
 ## Downsides
-During dnd element leaves parent and therefor can loose style (that was bound to css path which includes parent)
+Row leaves parent during dnd and therefor can loose style (if it was bound to css path that includes parent node)
 
 
