@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/artemdudkin/table-dnd.git"
+    "url": "git://github.com/artemdudkin/jq-table-dnd.git"
   },
   "main": "index.js",
   "scripts": {
